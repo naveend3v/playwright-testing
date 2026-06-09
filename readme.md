@@ -38,7 +38,7 @@ below sessions are from Nithesh tutor
 // allure-playwright:
 // npm install -D allure-playwright allure-commandline
 // to server report:
-// allure service allure-results
+// npx allure serve allure-results
 // debug:
 // npx playwright test --debug
 

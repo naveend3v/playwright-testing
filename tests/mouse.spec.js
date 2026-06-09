@@ -25,7 +25,6 @@ fill('Ganesh')
 type('Ganesh',{delay: 2000}) */
 
 import test from '@playwright/test';
- import { promiseHooks } from 'node:v8';
 
 test('Checking DOM based POPUP',async({page})=>{
  await page.goto('https://www.flipkart.com/');
